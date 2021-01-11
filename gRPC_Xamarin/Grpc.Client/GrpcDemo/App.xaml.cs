@@ -6,6 +6,7 @@ namespace GrpcDemo
 {
     public partial class App : Application
     {
+        public static Services.GreeterService GreeterService;
         public App()
         {
             InitializeComponent();
@@ -15,6 +16,7 @@ namespace GrpcDemo
 
         protected override void OnStart()
         {
+            GreeterService = new Services.GreeterService();
         }
 
         protected override void OnSleep()
@@ -23,6 +25,7 @@ namespace GrpcDemo
 
         protected override void OnResume()
         {
+            GreeterService = new Services.GreeterService();
         }
     }
 }
