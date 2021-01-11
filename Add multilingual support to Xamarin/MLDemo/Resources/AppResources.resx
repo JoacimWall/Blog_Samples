@@ -15,4 +15,7 @@
     <data name="C_Sharp_Is_Love" xml:space="preserve">
         <value>C Sharp is love</value>
     </data>
+    <data name="HTML_Is_Funny" xml:space="preserve">
+        <value>HTML is funny</value>
+    </data>
 </root>

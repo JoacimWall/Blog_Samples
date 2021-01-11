@@ -52,5 +52,11 @@ namespace MLDemo.Resources {
                 return ResourceManager.GetString("C_Sharp_Is_Love", resourceCulture);
             }
         }
+        
+        public static string HTML_Is_Funny {
+            get {
+                return ResourceManager.GetString("HTML_Is_Funny", resourceCulture);
+            }
+        }
     }
 }
